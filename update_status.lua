@@ -17,7 +17,7 @@ secrets_file = "twitter.secrets.lua"
 
 local new_status = arg[1]
 if not new_status then
-    print(string.format("usage: %s <new tweet content>", arg[0])
+    print(string.format("usage: %s <new tweet content>", arg[0]))
     os.exit(1)
 end
 
